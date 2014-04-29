@@ -15,9 +15,9 @@ Except using the Cork specific term, langer instead.
 | Request  | Output |
 | ------------- | ------------- |
 | /  | Returns a default message  |
-| /{from}/{to}  | Returns a message addressed to the {to} parameter, signed form the {form} parameter  |
-|/some/{from}/{to} | Some langer message |
-|/whata/{from}/{to} | What a langer message |
+| /{to}/{from}  | Returns a message addressed to the {to} parameter, signed form the {form} parameter  |
+|/some/{to}/{from} | Some langer message |
+|/whata/{to}/{from} | What a langer message |
 
 #####POST
 | Request URL | Data | Output |
